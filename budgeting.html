@@ -15,19 +15,42 @@
     header {
       background: #ffb6c1;
       color: white;
-      padding: 2rem;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       text-align: center;
+      border-bottom: 4px solid #ff69b4;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
     }
     nav {
       background: #ffe0e9;
       padding: 1rem;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ffb6c1;
     }
     nav a {
-      margin: 0 1rem;
       color: #c71585;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.2s ease;
     }
     nav a:hover {
       color: #ff1493;
@@ -43,7 +66,7 @@
     h2 {
       color: #d63384;
     }
-    ul {
+    ul, ol {
       padding-left: 1.2rem;
     }
     footer {
@@ -52,13 +75,15 @@
       text-align: center;
       padding: 1rem;
       margin-top: 3rem;
+      border-top: 4px solid #ff69b4;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Budgeting Tips</h1>
-    <p>Smart ways to stretch your student dollars.</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="logo" class="logo" />
+    <h1>First-Gen College Help</h1>
+    <p>Your one-stop guide to thriving in college, financially and mentally.</p>
   </header>
 
   <nav>
@@ -70,14 +95,14 @@
 
   <main>
     <h2>Why Budgeting Matters</h2>
-    <p>Being smart with your money in college isn’t about cutting out everything fun! It’s about making your money work for you and avoiding unnecessary debt.</p>
+    <p>Being smart with your money in college isn’t about cutting out everything fun. It’s about making your money work for you and avoiding unnecessary debt.</p>
 
     <h2>Step-by-Step Budget Plan</h2>
     <ol>
-      <li><strong>Calculate your income</strong> – Include financial aid refunds, part-time job income, family support, etc.</li>
-      <li><strong>Track your spending</strong> – Use apps like <a href="https://www.mint.com/">Mint</a> or <a href="https://everydollar.com/">EveryDollar</a>.</li>
-      <li><strong>Make a monthly budget</strong> – Separate wants vs. needs and set spending limits.</li>
-      <li><strong>Adjust as needed</strong> – Life happens! Your budget should flex with it.</li>
+      <li><strong>Calculate your income:</strong> Include financial aid refunds, part-time job income, family support, etc.</li>
+      <li><strong>Track your spending:</strong> Use apps like <a href="https://www.mint.com/">Mint</a> or <a href="https://everydollar.com/">EveryDollar</a>.</li>
+      <li><strong>Make a monthly budget:</strong> Separate wants vs. needs and set spending limits.</li>
+      <li><strong>Adjust as needed:</strong> Life happens. Your budget should flex with it.</li>
     </ol>
 
     <h2>Sample Student Budget</h2>
@@ -102,7 +127,7 @@
   </main>
 
   <footer>
-    <p>Made for first-gen students, by a first-gen student.</p>
+    <p>Created with 💗 by a first-gen student for first-gen students.</p>
   </footer>
 </body>
 </html>
