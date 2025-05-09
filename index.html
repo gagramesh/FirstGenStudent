@@ -5,19 +5,81 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>First-Gen College Help</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
-    header { background: #006699; color: white; padding: 1rem; text-align: center; }
-    nav { background: #004466; padding: 1rem; display: flex; justify-content: center; }
-    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    main { padding: 2rem; max-width: 800px; margin: auto; }
-    section { margin-bottom: 2rem; }
-    footer { background: #006699; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff5f8;
+      color: #333;
+    }
+    header {
+      background: #ffb6c1;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 4px solid #ff69b4;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #ffe0e9;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ffb6c1;
+    }
+    nav a {
+      color: #c71585;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #ff1493;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      color: #d63384;
+    }
+    footer {
+      background: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 4px solid #ff69b4;
+    }
+    .note {
+      font-style: italic;
+      color: #777;
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>First-Gen College Help</h1>
-    <p>Reliable, free resources to help you figure it all out.</p>
+    <p>Your one-stop guide to thriving in college—financially and mentally.</p>
   </header>
 
   <nav>
@@ -25,32 +87,52 @@
     <a href="#scholarships">Scholarships</a>
     <a href="#loans">Loans</a>
     <a href="#budgeting">Budgeting</a>
+    <a href="#about">About</a>
   </nav>
 
   <main>
     <section id="financial-aid">
       <h2>Financial Aid Guidance</h2>
-      <p>Learn how to fill out the FAFSA, understand your aid package, and figure out what forms are actually important. Start at <a href="https://studentaid.gov/" target="_blank">studentaid.gov</a>.</p>
+      <p>FAFSA doesn’t need to be scary. We break down each step in plain language, with links and timelines so you don’t miss out.</p>
+      <p>Start here: <a href="https://studentaid.gov/" target="_blank">studentaid.gov</a></p>
+      <p class="note">Tip: Don’t wait—deadlines vary by state and school.</p>
     </section>
 
     <section id="scholarships">
       <h2>Scholarship Opportunities</h2>
-      <p>Find scholarships that don’t require you to pay or sign up for spam emails. Try <a href="https://www.fastweb.com/" target="_blank">Fastweb</a> or <a href="https://bold.org/" target="_blank">Bold.org</a>.</p>
+      <p>No paywalls. No spam. Just real scholarships you can apply for right now. We recommend:</p>
+      <ul>
+        <li><a href="https://www.fastweb.com/" target="_blank">Fastweb</a></li>
+        <li><a href="https://bold.org/" target="_blank">Bold.org</a></li>
+        <li><a href="https://www.scholarships.com/" target="_blank">Scholarships.com</a></li>
+      </ul>
     </section>
 
     <section id="loans">
       <h2>Understanding Loans</h2>
-      <p>Know the difference between subsidized, unsubsidized, and private loans. Learn how interest works and what repayment looks like before borrowing anything.</p>
+      <p>What’s the difference between subsidized and unsubsidized? How much should you borrow? What will repayment look like? We explain it all without the jargon.</p>
+      <p class="note">Bonus: Loan calculators and interest guides coming soon.</p>
     </section>
 
     <section id="budgeting">
       <h2>Budgeting Tips</h2>
-      <p>From groceries to textbooks, here's how to stretch your money without skipping meals. Use free budget tools like <a href="https://www.mint.com/" target="_blank">Mint</a> or your school’s financial literacy office.</p>
+      <p>Living off ramen? Let’s do better. Learn how to manage your refund check, cut book costs, and still afford late-night Taco Bell.</p>
+      <p>Tools we love:</p>
+      <ul>
+        <li><a href="https://www.mint.com/" target="_blank">Mint</a></li>
+        <li><a href="https://everydollar.com/" target="_blank">EveryDollar</a></li>
+        <li>Your school’s financial literacy center or success coach</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About This Site</h2>
+      <p>I'm a first-gen college student who struggled with all the same things—FAFSA, paying tuition, finding real scholarships. This site is what I wish I had: clear, helpful, free.</p>
     </section>
   </main>
 
   <footer>
-    <p>Created by a first-gen student for first-gen students.</p>
+    <p>Created with 💗 by a first-gen student for first-gen students.</p>
   </footer>
 </body>
 </html>
