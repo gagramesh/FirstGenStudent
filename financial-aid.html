@@ -6,20 +6,82 @@
   <title>Financial Aid - First-Gen College Help</title>
   <style>
     body { font-family: 'Segoe UI', sans-serif; background: #fff5f8; margin: 0; padding: 0; color: #333; }
-    header { background: #ffb6c1; color: white; padding: 2rem; text-align: center; }
-    nav { background: #ffe0e9; padding: 1rem; text-align: center; }
-    nav a { margin: 0 1rem; color: #c71585; text-decoration: none; font-weight: bold; }
-    nav a:hover { color: #ff1493; }
-    main { max-width: 900px; margin: 2rem auto; padding: 1rem; background: #fff; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    h2 { color: #d63384; }
-    ul { padding-left: 1.2rem; }
-    footer { background: #ffb6c1; color: white; text-align: center; padding: 1rem; margin-top: 3rem; }
+    header {
+      background: #ffb6c1;
+      color: white;
+      padding: 1.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      border-bottom: 4px solid #ff69b4;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #ffe0e9;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #ffb6c1;
+    }
+    nav a {
+      color: #c71585;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: #ff1493;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #d63384;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    footer {
+      background: #ffb6c1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      border-top: 4px solid #ff69b4;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Financial Aid Guidance</h1>
-    <p>Understand your options and deadlines without the stress.</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="logo" class="logo" />
+    <h1>First-Gen College Help</h1>
+    <p>Your one-stop guide to thriving in college, financially and mentally.</p>
   </header>
 
   <nav>
@@ -30,32 +92,38 @@
   </nav>
 
   <main>
-    <h2>FAFSA Basics</h2>
-    <p>FAFSA stands for Free Application for Federal Student Aid. It determines your eligibility for grants, loans, and work-study programs.</p>
-    <ul>
-      <li>Apply every year at <a href="https://studentaid.gov/">studentaid.gov</a></li>
-      <li>Use your FSA ID to sign in</li>
-      <li>Submit as early as October 1</li>
-      <li>Don’t guess, use the IRS Data Retrieval Tool</li>
-    </ul>
+    <section>
+      <h2>FAFSA Basics</h2>
+      <p>FAFSA stands for Free Application for Federal Student Aid. It determines your eligibility for grants, loans, and work-study programs.</p>
+      <ul>
+        <li>Apply every year at <a href="https://studentaid.gov/">studentaid.gov</a></li>
+        <li>Use your FSA ID to sign in</li>
+        <li>Submit as early as October 1</li>
+        <li>Don’t guess, use the IRS Data Retrieval Tool</li>
+      </ul>
+    </section>
 
-    <h2>Types of Aid</h2>
-    <ul>
-      <li><strong>Grants:</strong> Free money you don’t have to repay (e.g., Pell Grant)</li>
-      <li><strong>Work-Study:</strong> Part-time jobs funded by the government</li>
-      <li><strong>Loans:</strong> Borrowed money you must pay back (see loan page for details)</li>
-    </ul>
+    <section>
+      <h2>Types of Aid</h2>
+      <ul>
+        <li><strong>Grants:</strong> Free money you don’t have to repay (e.g., Pell Grant)</li>
+        <li><strong>Work-Study:</strong> Part-time jobs funded by the government</li>
+        <li><strong>Loans:</strong> Borrowed money you must pay back (see loan page for details)</li>
+      </ul>
+    </section>
 
-    <h2>Tips for Success</h2>
-    <ul>
-      <li>Meet your school’s priority deadline</li>
-      <li>Ask your financial aid office questions, that’s what they’re there for</li>
-      <li>Check your email, aid info often goes there first</li>
-    </ul>
+    <section>
+      <h2>Tips for Success</h2>
+      <ul>
+        <li>Meet your school’s priority deadline</li>
+        <li>Ask your financial aid office questions, they want to help you</li>
+        <li>Check your email often for important updates</li>
+      </ul>
+    </section>
   </main>
 
   <footer>
-    <p>Created by a first-gen student who’s been there.</p>
+    <p>Created with 💗 by a first-gen student for first-gen students.</p>
   </footer>
 </body>
 </html>
