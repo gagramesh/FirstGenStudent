@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>First-Gen College Help 101</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <link rel="icon" type="image/png" href="https://github.com/gagramesh/FirstGenStudent/blob/main/logo.png">
   <style>
     body {
@@ -83,6 +84,28 @@
       font-style: italic;
       color: #777;
       margin-top: 0.5rem;
+      .card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.button {
+  display: inline-block;
+  background: #ff6bcb;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button:hover {
+  background: #ff4fa6;
     }
   </style>
 </head>
@@ -103,6 +126,11 @@
   </nav>
 
   <main>
+    <div class="card">
+  <h2><i class="fas fa-graduation-cap"></i> Financial Aid Guidance</h2>
+  <p>FAFSA doesn’t need to be scary. We break it down step by step in plain language.</p>
+  <a href="https://studentaid.gov" class="button">Start FAFSA</a>
+    </div>
     <section id="financial-aid">
       <h2>Financial Aid Guidance</h2>
       <p>FAFSA doesn’t need to be scary. We break down each step in plain language, with links and timelines so you don’t miss out.</p>
